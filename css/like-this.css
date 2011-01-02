@@ -1,0 +1,8 @@
+.LikeThis { color:#fff; display:inline; width:64px; height:64px; }
+.LikeThis .counter a { background:url(votesprite.png) no-repeat left top; position: absolute; top:0; height:64px; width:64px; cursor:pointer; font-weight:bold; color:#fff; text-indent:-9999px; }
+.LikeThis .counter a:hover { background-position:0 -64px; }
+.LikeThis .loading { background: url(loader.gif) center center no-repeat; }
+.inactive { color:#fff; background:url(votesprite.png) no-repeat left bottom; cursor:pointer; position:absolute; top:0px; height:64px; width:64px; font-weight:bold; text-indent:-99999px; }
+/*
+.LikeThis .counter a.image { background:url(add.jpg) no-repeat; }
+*/
